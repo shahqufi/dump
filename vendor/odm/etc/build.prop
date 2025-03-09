@@ -1,0 +1,33 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+import /proc/tkv
+ro.product.odm.brand=TECNO
+ro.product.odm.device=TECNO-LI9
+ro.product.odm.manufacturer=TECNO
+ro.product.odm.model=TECNO LI9
+ro.product.odm.name=LI9-OP
+ro.product.odm.tran.device.name.default=
+ro.odm.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+ro.odm.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.odm.product.cpu.abilist64=arm64-v8a
+ro.odm.build.date=Tue Dec 17 23:53:29 CST 2024
+ro.odm.build.date.utc=1734450809
+ro.odm.build.fingerprint=TECNO/LI9-OP/TECNO-LI9:12/SP1A.210812.016/241217V1834:user/release-keys
+ro.odm.build.id=SP1A.210812.016
+ro.odm.build.tags=release-keys
+ro.odm.build.type=user
+ro.odm.build.version.incremental=241217V1834
+ro.odm.build.version.release=12
+ro.odm.build.version.release_or_codename=12
+ro.odm.build.version.sdk=31
+####################################
+# from variable ADDITIONAL_ODM_PROPERTIES
+####################################
+####################################
+# from variable PRODUCT_ODM_PROPERTIES
+####################################
+# Auto-added by post_process_props.py
+persist.sys.usb.config=none
+# end of file

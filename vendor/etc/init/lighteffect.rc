@@ -1,0 +1,10 @@
+on property:sys.indicatorlight.style=*
+	stop lighteffect
+	start lighteffect
+
+service lighteffect /vendor/bin/lighteffect ${sys.indicatorlight.style}
+    user root
+    group root
+    disabled
+    oneshot
+    task_profiles HighEnergySaving ProcessCapacityLow

@@ -1,0 +1,22 @@
+{
+    "featureConfig": {
+        "tranfac.sensor.fingerprint.optical": "",
+        "tranfac.other.sdcard.external": "",
+        "tranfac.audio.speaker.num": "2",
+        "tranfac.audio.mic.num": "2",
+        "tranfac.sensor.sar": "",
+        "tranfac.usb.charge.rfc": "",
+        "tranfac.usb.charge.reverse": "10",
+        "tranfac.usb.charge.reverse_c2c": "",
+        "tranfac.camera.dual.arcsoft": "",
+        "tranfac.camera.dummy.front": "",
+        "tranfac.camera.dummy.yuv_index": "3",
+        "tranfac.camera.dummy.yuv2_index": "0",
+        "tranfac.camera.dummy.als_ic": "alspdt17",
+        "tranfac.camera.flashlight.front": "",
+        "tranfac.connect.gps": "",
+        "tranfac.connect.fm": "",
+        "tranfac.other.light_strip": "",
+        "tranfac.other.light_strip.check": ""
+    }
+}

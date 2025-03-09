@@ -1,0 +1,12 @@
+service vendor.transsion.hardware.tranfacaidl-service /vendor/bin/hw/vendor.transsion.hardware.tranfacaidl-service
+    interface aidl vendor.transsion.hardware.tranfacaidl.ITranfacAidl/default
+    class hal
+    user system
+    group system
+
+on init
+    mkdir /tranfs/tranfac 0775 system system
+    mkdir /tranfs/tranfac/cache 0775 system system
+
+on boot
+    setprop sys.tranfac.ro.cmd.verified 0
