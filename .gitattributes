@@ -1,0 +1,2 @@
+vendor/data/camera/model/megii_dualcam/capture_model filter=lfs diff=lfs merge=lfs -text
+vendor/lib64/libstfaceunlockppl.so filter=lfs diff=lfs merge=lfs -text
